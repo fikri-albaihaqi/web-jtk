@@ -10,7 +10,7 @@ body {
 #header {
   width: 100%;
   height: 300px;
-  background-image: url("img/header1.jpg");
+  background-image: url("img/header2.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: 30% 30%;
@@ -50,7 +50,7 @@ ul li:hover {
 .dropdown-content {
   display: none;
   position: absolute;
-  min-width: 160px;
+  width: 160px;
   background-color: #ececec;
   margin-top: 10px;
 }
@@ -97,6 +97,17 @@ ul li:hover {
   text-align: center;
   color: #105194;
 }
+.prestasi img {
+  width: 80%;
+  margin-left: 10%;
+}
+.foto-penulis {
+  margin-top: 50px;
+}
+.foto-penulis img {
+  width: 50%;
+  margin-left: 25%;
+}
 footer {
   clear: both;
   text-align: center;
@@ -123,6 +134,15 @@ footer h4 {
 }
 #isi {
   width: 30%;
+}
+.biodata #nama {
+  width: 35%;
+}
+.biodata #tengah {
+  width: 10%;
+}
+.biodata #isi {
+  width: 55%;
 }
 .kesan {
   text-align: center;
